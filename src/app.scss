@@ -1,0 +1,30 @@
+.app{
+    height: 100vh;
+    overflow: hidden;
+
+    .sections{
+        width:100%;
+        height: 93.5vh;
+        background-color: darkgoldenrod;
+        position: relative;
+        top: 70px;
+        // this makes the scrolling back to the page 'smoother'. Also affects snap-scr
+        scroll-behavior: smooth;
+
+        // this makes the webpage snap to the next section, use it with 'scroll-snap-align: start' in child elements.
+        scroll-snap-type: y mandatory;
+        // gets rid of the side scrollbar.
+        scrollbar-width: none; //for firefox
+        &::-webkit-scrollbar{
+            display:none;
+        }
+        // forEach 'sections', change its properties
+        > *{
+            width: 100vw;
+            height: 97vh;
+            // this makes the webpage snap to the next section, use it with 'scroll-snap-type: y mandatory' in parent element.
+            scroll-snap-align: start
+        }
+    }
+    
+}
