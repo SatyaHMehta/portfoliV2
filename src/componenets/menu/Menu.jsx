@@ -23,10 +23,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="https://github.com/SatyaHMehta" target="_blank">
-            <img class="logo" src="assets/github.png" />
+            <img className="logo" src="/assets/github.png" />
           </a>
           <a href="linkedin.com/in/satya-mehta-9743431b8" target="_blank">
-            <img class="logo" src="assets/linkedin.png" />
+            <img className="logo" src="/assets/linkedin.png" />
           </a>
         </li>
       </ul>

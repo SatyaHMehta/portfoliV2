@@ -42,7 +42,7 @@ export default function Portfolio() {
           href="https://satyahmehta.github.io/firstGroupProject/"
           target="_blank"
         >
-          <img src="assets/barhopv1.png" alt="" />
+          <img src="assets/barhopv1.PNG" alt="" />
           <h3>BarHop App</h3>
         </a>
 
@@ -51,7 +51,7 @@ export default function Portfolio() {
           href="https://note-taker-satya2.herokuapp.com/"
           target="_blank"
         >
-          <img src="assets/noteTaker.png" alt="" />
+          <img src="assets/noteTaker.PNG" alt="" />
           <h3>NoteTaker App</h3>
         </a>
         <a
@@ -59,7 +59,7 @@ export default function Portfolio() {
           href="https://satyahmehta.github.io/password-generator/"
           target="_blank"
         >
-          <img src="assets/passwordGenerator.png" alt="" />
+          <img src="assets/passwordGenerator.PNG" alt="" />
           <h3>Password Generator</h3>
         </a>
         <a
@@ -67,7 +67,7 @@ export default function Portfolio() {
           href="https://barhopv2.herokuapp.com/"
           target="_blank"
         >
-          <img src="assets/barhopv2.png" alt="" />
+          <img src="assets/barhopv2.PNG" alt="" />
           <h3>BarHopV2 App</h3>
         </a>
         <a
@@ -75,7 +75,7 @@ export default function Portfolio() {
           href="https://github.com/SatyaHMehta/Team_rofile_Generator.git"
           target="_blank"
         >
-          <img src="assets/teamGenerator.png" alt="" />
+          <img src="assets/teamGenerator.PNG" alt="" />
           <h3>Team Generator</h3>
         </a>
         <a
@@ -83,7 +83,7 @@ export default function Portfolio() {
           href="https://satyahmehta.github.io/coding_quiz/"
           target="_blank"
         >
-          <img src="assets/codeQuiz.png" alt="" />
+          <img src="assets/codeQuiz.PNG" alt="" />
           <h3>Code Quiz</h3>
         </a>
       </div>

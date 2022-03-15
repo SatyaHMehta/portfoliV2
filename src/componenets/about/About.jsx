@@ -1,5 +1,4 @@
 import "./about.scss";
-import Award from "./arrow.png";
 
 const About = () => {
   return (
@@ -7,7 +6,7 @@ const About = () => {
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src="assets/SatyaMehta.png" alt="" className="a-img" />
+          <img src="assets/SatyaMehta.PNG" alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">
