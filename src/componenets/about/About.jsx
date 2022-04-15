@@ -14,14 +14,11 @@ const About = () => {
         <div>
           <h1 className="a-title">About Me</h1>
           <p className="a-sub">
-            Hello everyone! I am a junior web developer who is passionate about
-            what I do.
+            Hello everyone! I am a junior web developer who is very passionate about
+            coding.
           </p>
           <p className="a-desc">
-            I started my journey to being a web developer not too long ago and I
-            am loving every second of it! I am very passionate about coding in
-            general. My favorite language is JS, and I love to work with React.
-            My goal is to become an outstanding front-end, React, web developer.
+          I am a dedicated and results-driven professional. My specialties include quickly learning new skills and programing languages, problem solving, using OOP/ ORM, and agile scrum methodology to design and complete applications. So far, I have JS, TypeScript, HTML, CSS, Node, Express, React, Bootstrap, jQuery, MySQL, and MongoDB under my belt. I have also started learning Angular and I am enthusiastically learning any other programing principles, frameworks or languages that I can integrate into my coding brain.
           </p>
         </div>
         {/* <a href="#about">

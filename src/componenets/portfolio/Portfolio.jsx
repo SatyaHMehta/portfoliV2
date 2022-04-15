@@ -1,6 +1,12 @@
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import { useState, useEffect } from "react";
+import barHopV2 from '../../assets/barhopv2.PNG'
+import barHopV1 from '../../assets/barhopv1.PNG'
+import noteTaker from '../../assets/noteTaker.PNG'
+import passwordGen from '../../assets/passwordGenerator.PNG'
+import teamGen from '../../assets/teamGenerator.PNG'
+import codeQuiz from '../../assets/codeQuiz.PNG'
 
 export default function Portfolio() {
   // const [selected, setSelected] = useState("featured");
@@ -42,7 +48,7 @@ export default function Portfolio() {
           href="https://satyahmehta.github.io/firstGroupProject/"
           target="_blank"
         >
-          <img src="assets/barhopv1.PNG" alt="" />
+          <img src={barHopV1} alt="" />
           <h3>BarHop App</h3>
         </a>
 
@@ -51,7 +57,7 @@ export default function Portfolio() {
           href="https://note-taker-satya2.herokuapp.com/"
           target="_blank"
         >
-          <img src="assets/noteTaker.PNG" alt="" />
+          <img src={noteTaker} alt="" />
           <h3>NoteTaker App</h3>
         </a>
         <a
@@ -59,7 +65,7 @@ export default function Portfolio() {
           href="https://satyahmehta.github.io/password-generator/"
           target="_blank"
         >
-          <img src="assets/passwordGenerator.PNG" alt="" />
+          <img src={passwordGen} alt="" />
           <h3>Password Generator</h3>
         </a>
         <a
@@ -67,25 +73,25 @@ export default function Portfolio() {
           href="https://barhopv2.herokuapp.com/"
           target="_blank"
         >
-          <img src="assets/barhopv2.PNG" alt="" />
+          <img src={barHopV2} alt="" />
           <h3>BarHopV2 App</h3>
         </a>
-        <a
+        {/* <a
           className="item"
           href="https://github.com/SatyaHMehta/Team_rofile_Generator.git"
           target="_blank"
         >
-          <img src="assets/teamGenerator.PNG" alt="" />
+          <img src={teamGen} alt="" />
           <h3>Team Generator</h3>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           className="item"
           href="https://satyahmehta.github.io/coding_quiz/"
           target="_blank"
         >
-          <img src="assets/codeQuiz.PNG" alt="" />
+          <img src={codeQuiz} alt="" />
           <h3>Code Quiz</h3>
-        </a>
+        </a> */}
       </div>
     </div>
   );

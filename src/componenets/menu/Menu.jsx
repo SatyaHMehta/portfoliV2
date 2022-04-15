@@ -1,4 +1,6 @@
 import "./menu.scss";
+import github from '../../assets/github.png';
+import linkedin from '../../assets/linkedin.png'
 // import menuOnClick from "../HelperFunctions/menuOnClick"
 
 export default function Menu({ menuOpen, setMenuOpen }) {
@@ -23,10 +25,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="https://github.com/SatyaHMehta" target="_blank" rel="noreferrer">
-            <img className="logo" src="/assets/github.png" alt="github img" />
+            <img className="logo" src={github} alt="github img" />
           </a>
           <a href="linkedin.com/in/satya-mehta-9743431b8" target="_blank">
-            <img className="logo" src="/assets/linkedin.png" alt="linkedin img"/>
+            <img className="logo" src={linkedin} alt="linkedin img"/>
           </a>
         </li>
       </ul>

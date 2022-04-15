@@ -12,7 +12,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Proficient In", "MERN", "MVC", "React"],
+      strings: ["JS", "HTML/CSS", "React", "MERN", "MVC", "OOP"],
     });
   }, []);
   return (
@@ -30,7 +30,10 @@ export default function Intro() {
           <h2>Hello There, I am</h2>
           <h1>Satya Mehta</h1>
           <h3>
-            Full-Stack <span ref={textRef}></span>
+            Full-Stack Web Developer
+          </h3>
+          <h3>
+            Proficient in: <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#about">
