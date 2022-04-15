@@ -72,8 +72,9 @@
 
   &.active {
       background-color: $mainColor;
-      color: white;
+      color: white ;
         // creating an alternative hamberguer icon when clicking on it.
+      
       .hamburger{
           span{
             &:first-child {

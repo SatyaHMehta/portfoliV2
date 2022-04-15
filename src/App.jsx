@@ -2,7 +2,6 @@ import Topbar from "./componenets/topbar/Topbar";
 import Contact from "./componenets/contact/Contact";
 import Intro from "./componenets/intro/Intro";
 import Portfolio from "./componenets/portfolio/Portfolio";
-import Works from "./componenets/works/works";
 import Menu from './componenets/menu/Menu'
 import "../src/app.scss";
 import React, { useState } from 'react';
