@@ -1,12 +1,11 @@
-import PortfolioList from "../portfolioList/PortfolioList";
+
 import "./portfolio.scss";
-import { useState, useEffect } from "react";
+
 import barHopV2 from '../../assets/barhopv2.PNG'
 import barHopV1 from '../../assets/barhopv1.PNG'
 import noteTaker from '../../assets/noteTaker.PNG'
 import passwordGen from '../../assets/passwordGenerator.PNG'
-import teamGen from '../../assets/teamGenerator.PNG'
-import codeQuiz from '../../assets/codeQuiz.PNG'
+
 
 export default function Portfolio() {
   // const [selected, setSelected] = useState("featured");
