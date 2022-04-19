@@ -46,6 +46,7 @@ export default function Portfolio() {
           className="item"
           href="https://satyahmehta.github.io/firstGroupProject/"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={barHopV1} alt="" />
           <h3>BarHop App</h3>
@@ -55,6 +56,7 @@ export default function Portfolio() {
           className="item"
           href="https://note-taker-satya2.herokuapp.com/"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={noteTaker} alt="" />
           <h3>NoteTaker App</h3>
@@ -63,6 +65,7 @@ export default function Portfolio() {
           className="item"
           href="https://satyahmehta.github.io/password-generator/"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={passwordGen} alt="" />
           <h3>Password Generator</h3>
@@ -71,6 +74,7 @@ export default function Portfolio() {
           className="item"
           href="https://barhopv2.herokuapp.com/"
           target="_blank"
+          rel="noreferrer"
         >
           <img src={barHopV2} alt="" />
           <h3>BarHopV2 App</h3>
