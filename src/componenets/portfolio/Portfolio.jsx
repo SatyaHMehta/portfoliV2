@@ -79,14 +79,14 @@ export default function Portfolio() {
           <img src={barHopV2} alt="" />
           <h3>BarHopV2 App</h3>
         </a>
-        {/* <a
+        <a
           className="item"
           href="https://github.com/SatyaHMehta/Team_rofile_Generator.git"
           target="_blank"
         >
           <img src={teamGen} alt="" />
           <h3>Team Generator</h3>
-        </a> */}
+        </a>
         {/* <a
           className="item"
           href="https://satyahmehta.github.io/coding_quiz/"
