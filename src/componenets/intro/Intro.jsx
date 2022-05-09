@@ -2,6 +2,7 @@ import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
 import Satya from '../../assets/SatyaMehta.PNG'
+
 import DArrow from '../../assets/down.png'
 
 

@@ -1,11 +1,10 @@
-
 import "./portfolio.scss";
-
-import barHopV2 from '../../assets/barhopv2.PNG'
-import barHopV1 from '../../assets/barhopv1.PNG'
-import noteTaker from '../../assets/noteTaker.PNG'
-import passwordGen from '../../assets/passwordGenerator.PNG'
-
+import teamGen from "../../assets/teamGenerator.PNG";
+// import barHopV2 from "../../assets/barhopv2.PNG";
+import dayPlanner from '../../assets/dayPlanner.PNG'
+import barHopV1 from "../../assets/barhopv1.PNG";
+import noteTaker from "../../assets/noteTaker.PNG";
+import passwordGen from "../../assets/passwordGenerator.PNG";
 
 export default function Portfolio() {
   // const [selected, setSelected] = useState("featured");
@@ -72,13 +71,23 @@ export default function Portfolio() {
         </a>
         <a
           className="item"
+          href="https://satyahmehta.github.io/work_day_scheduler/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={dayPlanner} alt="" />
+          <h3>Work Day Planner</h3>
+        </a>
+
+        {/* <a
+          className="item"
           href="https://barhopv2.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={barHopV2} alt="" />
           <h3>BarHopV2 App</h3>
-        </a>
+        </a> */}
         <a
           className="item"
           href="https://github.com/SatyaHMehta/Team_rofile_Generator.git"

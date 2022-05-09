@@ -1,5 +1,5 @@
 import "./about.scss";
-import Satya2 from "../../assets/SatyaMehta.PNG"
+import Satya2 from '../../assets/satya profile pic.jpg'
 
 const About = () => {
   return (
