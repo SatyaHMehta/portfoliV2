@@ -1,10 +1,11 @@
 import "./portfolio.scss";
 import teamGen from "../../assets/teamGenerator.PNG";
-// import barHopV2 from "../../assets/barhopv2.PNG";
+import barHopV2 from "../../assets/barhopv2.PNG";
 import dayPlanner from '../../assets/dayPlanner.PNG'
-import barHopV1 from "../../assets/barhopv1.PNG";
+// import barHopV1 from "../../assets/barhopv1.PNG";
 import noteTaker from "../../assets/noteTaker.PNG";
 import passwordGen from "../../assets/passwordGenerator.PNG";
+import ashasKitchen from "../../assets/ashasKitchen.PNG"
 
 export default function Portfolio() {
   // const [selected, setSelected] = useState("featured");
@@ -43,11 +44,20 @@ export default function Portfolio() {
       <div className="container">
         <a
           className="item"
-          href="https://satyahmehta.github.io/firstGroupProject/"
+          href="https://ashas-kitchen-satyahmehta.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={barHopV1} alt="" />
+          <img src={ashasKitchen} alt="" />
+          <h3>Asha's Kitchen</h3>
+        </a>
+        <a
+          className="item"
+          href="https://barhopv2.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={barHopV2} alt="" />
           <h3>BarHop App</h3>
         </a>
 

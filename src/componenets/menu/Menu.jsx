@@ -27,7 +27,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="https://github.com/SatyaHMehta" target="_blank" rel="noreferrer">
             <img className="logo" src={github} alt="github img" />
           </a>
-          <a href="linkedin.com/in/satya-mehta-9743431b8" target="_blank">
+          <a href="https://linkedin.com/in/satya-mehta-9743431b8" target="_blank" rel="noreferrer">
             <img className="logo" src={linkedin} alt="linkedin img"/>
           </a>
         </li>
